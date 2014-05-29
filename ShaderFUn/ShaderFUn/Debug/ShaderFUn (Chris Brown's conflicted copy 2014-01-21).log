@@ -1,0 +1,43 @@
+﻿Build started 1/21/2014 7:28:01 PM.
+     1>Project "C:\Users\Elliott\Dropbox\Software Projects\Mop!\dev\GL POC\ShaderFUn\ShaderFUn\ShaderFUn.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Elliott\Dropbox\Software Projects\Mop!\dev\GL POC\ShaderFUn\\..\..\Includes\GL" /I"C:\Users\Elliott\Dropbox\Software Projects\Mop!\dev\GL POC\ShaderFUn\\..\..\Includes\\" /I"C:\Users\Elliott\Dropbox\Software Projects\Mop!\dev\GL POC\ShaderFUn\\..\..\Includes\GL" /I"C:\Users\Elliott\Dropbox\Software Projects\Mop!\dev\GL POC\ShaderFUn\\..\..\Includes\\" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Libs\src\Circle.cpp ..\..\..\Libs\src\Dot.cpp ..\..\..\Libs\src\Framework.cpp ..\..\..\Libs\src\Graphics.cpp ..\..\..\Libs\src\Input.cpp ..\..\..\Libs\src\Line.cpp ..\..\..\Libs\src\Shader.cpp ..\..\..\Libs\src\Texture.cpp main.cpp
+         main.cpp
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(98): warning C4056: overflow in floating-point constant arithmetic
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(104): warning C4056: overflow in floating-point constant arithmetic
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\gl poc\shaderfun\shaderfun\main.cpp(49): error C2143: syntax error : missing ';' before 'if'
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\gl poc\shaderfun\shaderfun\main.cpp(49): error C3867: 'Graphics::sync': function call missing argument list; use '&Graphics::sync' to create a pointer to member
+         Texture.cpp
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\libs\src\texture.cpp : fatal error C1041: cannot open program database 'c:\users\elliott\dropbox\software projects\mop!\dev\gl poc\shaderfun\shaderfun\debug\vc120.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Shader.cpp
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\libs\src\shader.cpp(49): warning C4101: 'file' : unreferenced local variable
+         Line.cpp
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(98): warning C4056: overflow in floating-point constant arithmetic
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(104): warning C4056: overflow in floating-point constant arithmetic
+         Input.cpp
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(98): warning C4056: overflow in floating-point constant arithmetic
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(104): warning C4056: overflow in floating-point constant arithmetic
+         Graphics.cpp
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(98): warning C4056: overflow in floating-point constant arithmetic
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(104): warning C4056: overflow in floating-point constant arithmetic
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\libs\src\graphics.cpp(135): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\libs\src\graphics.cpp(138): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\libs\src\graphics.cpp(139): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\libs\src\graphics.cpp(141): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\libs\src\graphics.cpp(208): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Framework.cpp
+         Dot.cpp
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(98): warning C4056: overflow in floating-point constant arithmetic
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(104): warning C4056: overflow in floating-point constant arithmetic
+         Circle.cpp
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(98): warning C4056: overflow in floating-point constant arithmetic
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\includes\chipmunk\cpbb.h(104): warning C4056: overflow in floating-point constant arithmetic
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\libs\src\circle.cpp(66): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\libs\src\circle.cpp(98): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\elliott\dropbox\software projects\mop!\dev\libs\src\circle.cpp(104): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         Generating Code...
+     1>Done Building Project "C:\Users\Elliott\Dropbox\Software Projects\Mop!\dev\GL POC\ShaderFUn\ShaderFUn\ShaderFUn.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:26.79
